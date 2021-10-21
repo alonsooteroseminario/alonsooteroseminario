@@ -1,11 +1,11 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi! Welcome to my profile
 
-I'm a Civil engineering and Full Stack Web Developer, with experience in the Architecture and Construction industry using and implementing BIM standards through Software.
+I'm a Civil Engineer and Full Stack Developer, with experience in Architecture and Construction industry using and implementing BIM standards through Software.
 
 <details>
 <summary>More about me</summary>
 <br/>
-Through my last few years, I acquired strong skills in the field of software development building desktops Add-ins or Web-based apps for Architecture and Construction companies.<br/>
+Through my last few years, I acquired strong skills in the field of software development building desktop Add-ins or Web-based Apps for Architecture and Construction companies. <br/>
 Motivated, I know how to adapt, I have a sense of responsibility and organization. 
 
 </details>
@@ -25,7 +25,7 @@ Motivated, I know how to adapt, I have a sense of responsibility and organizatio
 ![NodeJS badge](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 ---
-# LinkedIn Profil
+# LinkedIn Profile
 <div align="center">
 
 [![Author](/linkedin.png)](https://www.linkedin.com/in/luisalonsooteroseminario/)
