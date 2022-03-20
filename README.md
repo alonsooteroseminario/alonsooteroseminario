@@ -1,11 +1,11 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi! Welcome to my profile
 
-I'm a Civil Engineer and Full Stack Developer, with experience in Architecture and Construction industry using and implementing BIM standards through Software.
+I'm Luis. Civil Engineering Background & Software Developer for AEC, work experience in the site, as BIM Modeler, BIM Coordinator and Full-stack Software Developer for AEC. Experience developing software solutions to automate workflows during the design and coordination processes in Engineering, Mechanical, Piping projects.
 
 <details>
 <summary>More about me</summary>
 <br/>
-Through my last few years, I acquired strong skills in the field of software development building desktop Add-ins or Web-based Apps for Architecture and Construction companies. <br/>
+Through my last few years, I acquired strong skills in the field of software development building desktop Add-ins or Web-based Apps for Architecture and Construction companies. <br/><br/>
 Motivated, I know how to adapt, I have a sense of responsibility and organization. 
 
 </details>
