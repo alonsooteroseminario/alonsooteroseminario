@@ -25,6 +25,8 @@ I founded the **WSP Digital Studio Suite**, built its first version from scratch
 - **AI-assisted Clash Triage** *(in progress)* — groups thousands of raw Navisworks clashes into actionable issues in minutes
 - **Project Data Gate** — single source of truth for project data, plus a CV Generator that auto-produces tailored resumes from it
 
+Outside work, the **OpenClaw Agent System** — a 15-agent orchestration setup where cost is an architectural constraint rather than a monthly surprise: classify the task, route it to the cheapest tier that can do it, compress what gets sent.
+
 ---
 
 ### 📌 Skills
@@ -39,7 +41,7 @@ I founded the **WSP Digital Studio Suite**, built its first version from scratch
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Autodesk Platform Services](https://img.shields.io/badge/Autodesk%20Platform%20Services-000000?style=for-the-badge&logo=autodesk&logoColor=white)
 
-**Also:** Revit API · AutoCAD API · Dynamo · Prisma ORM · Azure SQL · GitHub Actions · AI agents (MCP)
+**Also:** Revit API · AutoCAD API · Dynamo · Prisma ORM · Azure SQL · GitHub Actions · AI agents (MCP) · multi-agent orchestration · prompt compression & model routing · systemd
 
 ---
 
@@ -49,6 +51,7 @@ I founded the **WSP Digital Studio Suite**, built its first version from scratch
 
 | Project | Description |
 |---|---|
+| [OpenClaw Agent System](https://luisotero.vercel.app/work/14) | Multi-agent orchestration on OpenClaw — a 15-agent team with specialised roles, a task classifier that routes each request down a four-tier model ladder (Mistral → Haiku → Sonnet → Opus), and a three-layer compression stack. Built to a fixed budget: 85–95% lower token spend, ~7x cost efficiency, running as systemd user services |
 | [BuildCadence](https://buildcadence.co) | Goal-tracking app with an embedded MCP-powered AI agent that plans and updates your journeys through chat — Next.js 15, Clerk, Prisma + MongoDB, SSE |
 | [SplitWalls Cloud](https://splitwalls.cloud) | Browser-based wall-splitting SaaS for prefab panel contractors. Upload a Revit model, set split rules on a 2D canvas, run it in the cloud through APS Design Automation, get IFC back — no Revit license |
 | [Jorno App](https://www.jornoapp.xyz/) | AI-assisted intelligent forms for truck drivers and construction crews |
