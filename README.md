@@ -10,7 +10,7 @@ Graduated Civil Engineering from Universidad de Piura, Peru, in 2015. Early role
 
 That led to a move to Santiago, Chile in 2016 to learn BIM properly, three roles taking me from BIM modeler to BIM coordinator (including MEP work on the Arturo Merino Benítez International Airport expansion), and — while coordinating BIM on a general-contractor site — building **WeClash**, a mobile 3D clash viewer, to fix problems I was living day to day: outdated printed plans, clashes caught too late, Navisworks stuck on one office desktop.
 
-Through the pandemic I studied programming intensively, did a full-stack bootcamp, and eventually quit my job to study full-time for nine months. A Work and Holiday permit brought me to Vancouver, and a WeClash demo video I'd made back in Chile eventually led to a job offer from WSP Canada, where I joined as Digital Development Lead in November 2022.
+Through the pandemic I studied programming intensively, did a full-stack bootcamp, and eventually quit my job to study full-time for nine months. I moved to Vancouver in 2021 and spent a year on VDC automation for a mechanical contractor — AutoCAD and Revit add-ins built for crews using them in production every day — before joining WSP Canada as Digital Development Lead in November 2022.
 
 </details>
 
@@ -18,7 +18,7 @@ Through the pandemic I studied programming intensively, did a full-stack bootcam
 
 ### 🛠️ Currently building
 
-Architecting and leading the **WSP Digital Studio Suite** — 8 apps in production, 15+ in active development — streamlining BIM/engineering workflows for WSP's Canadian national team end to end.
+I founded the **WSP Digital Studio Suite**, built its first version from scratch, and now lead its architecture and roadmap as part of the Digital Solutions team — 8 apps in production, 15+ in active development, used by WSP Canada's engineering teams. Next.js/React on NestJS + Prisma + Azure SQL, integrated with Autodesk Platform Services, shipped through CI/CD on Azure.
 
 - **APS PDF Creator** — auto-generates drawing PDFs from Revit models in ACC/BIM360
 - **System Reviewer** — QA/QC tool that analyzes Revit models for mechanical-system design consistency
@@ -45,12 +45,25 @@ Architecting and leading the **WSP Digital Studio Suite** — 8 apps in producti
 
 ### 🚀 Notable projects
 
+**Products**
+
 | Project | Description |
 |---|---|
-| [BuildCadence](https://buildcadence.co) | Goal-tracking app with an embedded MCP-powered AI agent — Next.js 15, Clerk, Prisma + MongoDB |
-| [SplitWalls Cloud](https://splitwalls.cloud) | Browser-based wall-splitting SaaS for prefab panel contractors, running on APS Design Automation |
-| WeClash | Mobile 3D clash-detection viewer on the Autodesk Platform Services Viewer API — the project that led to the WSP offer |
-| QuickClash | Revit add-in for automated clash detection and reporting |
+| [BuildCadence](https://buildcadence.co) | Goal-tracking app with an embedded MCP-powered AI agent that plans and updates your journeys through chat — Next.js 15, Clerk, Prisma + MongoDB, SSE |
+| [SplitWalls Cloud](https://splitwalls.cloud) | Browser-based wall-splitting SaaS for prefab panel contractors. Upload a Revit model, set split rules on a 2D canvas, run it in the cloud through APS Design Automation, get IFC back — no Revit license |
+| [Jorno App](https://www.jornoapp.xyz/) | AI-assisted intelligent forms for truck drivers and construction crews |
+
+**AEC tooling & automation**
+
+| Project | Description |
+|---|---|
+| [True Blocks — AutoCAD Automation Suite](https://luisotero.vercel.app/work/11) | C# .NET macro loaded into AutoCAD via NETLOAD: a WinForms picker for a folder-driven block library — filter by type and size, preview, place — plus a bulk layer on/off command driven from Excel |
+| [Revit Field-Point Automation + Clash-to-CAN](https://luisotero.vercel.app/work/13) | C# Revit add-in for Trimble field-survey point automation, and a Dynamo/Python graph that clash-detects vertical pipes against floors and auto-places correctly sized sleeves at every intersection |
+| [QuickClash](https://github.com/alonsooteroseminario/QuickClash) | Revit add-in for automated clash detection and reporting, with filtering and report generation |
+| [WeClash](https://luisotero.vercel.app/work/4) | Mobile-first 3D clash viewer on the Autodesk Platform Services Viewer API — built while coordinating BIM on a general-contractor site, to get models out of the office and onto a phone at the clash |
+| [Web-Clash 3D Viewer](https://luisotero.vercel.app/work/5) | The version that came first: sign in with your Autodesk account, browse the BIM 360 file tree with per-file version history, and open 3D models and 2D sheets — with measuring tools — in a mobile browser |
+
+Case studies, including slide-deck walkthroughs of the AutoCAD and Revit work, are on [luisotero.vercel.app](https://luisotero.vercel.app/portfolios).
 
 ---
 
@@ -58,7 +71,7 @@ Architecting and leading the **WSP Digital Studio Suite** — 8 apps in producti
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/luisotero.dev-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white)](https://luisotero.dev)
+[![Website](https://img.shields.io/badge/luisotero.vercel.app-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white)](https://luisotero.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisalonsooteroseminario/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://alonsooteroseminario.medium.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alonsooteroseminario@gmail.com)
