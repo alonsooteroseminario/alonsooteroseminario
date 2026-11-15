@@ -18,7 +18,7 @@ Through the pandemic I studied programming intensively, did a full-stack bootcam
 
 ### 🛠️ Currently building
 
-I founded the **WSP Digital Studio Suite**, built its first version from scratch, and now lead its architecture and roadmap as part of the Digital Solutions team — 8 apps in production, 15+ in active development, used by WSP Canada's engineering teams. Next.js/React on NestJS + Prisma + Azure SQL, integrated with Autodesk Platform Services, shipped through CI/CD on Azure.
+I started the **WSP Digital Studio Suite**, built its first version from scratch, and now lead its architecture and roadmap as part of the Digital Solutions team — 8 apps in production, 15+ in active development, used by WSP Canada's engineering teams. Next.js/React on NestJS + Prisma + Azure SQL, integrated with Autodesk Platform Services, shipped through CI/CD on Azure.
 
 - **APS PDF Creator** — auto-generates drawing PDFs from Revit models in ACC/BIM360
 - **System Reviewer** — QA/QC tool that analyzes Revit models for mechanical-system design consistency
