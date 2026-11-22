@@ -1,6 +1,6 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm Luis
 
-Civil Engineer turned Full-Stack Software Developer. **Digital Development Lead at WSP Canada** — BIM automation, AEC tooling, and applied AI for engineering workflows, based in Vancouver, BC.
+Civil Engineer turned Full-Stack Software Developer, based in Vancouver, BC. I build my own products for the AEC industry and for people who work with AI, and I work as Digital Development Lead at WSP Canada.
 
 <details>
 <summary>More about me</summary>
@@ -10,7 +10,7 @@ Graduated Civil Engineering from Universidad de Piura, Peru, in 2015. Early role
 
 That led to a move to Santiago, Chile in 2016 to learn BIM properly, three roles taking me from BIM modeler to BIM coordinator (including MEP work on the Arturo Merino Benítez International Airport expansion), and — while coordinating BIM on a general-contractor site — building **WeClash**, a mobile 3D clash viewer, to fix problems I was living day to day: outdated printed plans, clashes caught too late, Navisworks stuck on one office desktop.
 
-Through the pandemic I studied programming intensively, did a full-stack bootcamp, and eventually quit my job to study full-time for nine months. I moved to Vancouver in 2021 and spent a year on VDC automation for a mechanical contractor — AutoCAD and Revit add-ins built for crews using them in production every day — before joining WSP Canada as Digital Development Lead in November 2022.
+Through the pandemic I studied programming intensively, did a full-stack bootcamp, and eventually quit my job to study full-time for nine months. I moved to Vancouver in 2021 and spent a year on VDC automation for a mechanical contractor — AutoCAD and Revit add-ins built for crews using them in production every day — before joining WSP Canada in 2022.
 
 </details>
 
@@ -18,14 +18,16 @@ Through the pandemic I studied programming intensively, did a full-stack bootcam
 
 ### 🛠️ Currently building
 
-I started the **WSP Digital Studio Suite**, built its first version from scratch, and now lead its architecture and roadmap as part of the Digital Solutions team — 8 apps in production, 15+ in active development, used by WSP Canada's engineering teams. Next.js/React on NestJS + Prisma + Azure SQL, integrated with Autodesk Platform Services, shipped through CI/CD on Azure.
+My own products, built and run outside my day job:
 
-- **APS PDF Creator** — auto-generates drawing PDFs from Revit models in ACC/BIM360
-- **System Reviewer** — QA/QC tool that analyzes Revit models for mechanical-system design consistency
-- **AI-assisted Clash Triage** *(in progress)* — groups thousands of raw Navisworks clashes into actionable issues in minutes
-- **Project Data Gate** — single source of truth for project data, plus a CV Generator that auto-produces tailored resumes from it
+- **[Prowallo](https://prowallo.com)** — a wallet for your prompts. Save the AI prompts that work as small reusable chunks, compose the ones a task needs and copy them merged in one tap. Free public beta.
+- **[BuildCadence](https://buildcadence.co)** — goal tracking with an embedded AI agent: break a goal into tasks you can start today, keep a streak going, and share progress with friends.
+- **[SplitWalls Cloud](https://splitwalls.cloud)** — split Revit walls into prefab panels in the browser and download the result as IFC, with no Revit license.
+- **[OpenClaw Agent System](https://luisotero.vercel.app/work/14)** — a 15-agent orchestration setup where cost is an architectural constraint rather than a monthly surprise: classify the task, route it to the cheapest tier that can do it, compress what gets sent.
 
-Outside work, the **OpenClaw Agent System** — a 15-agent orchestration setup where cost is an architectural constraint rather than a monthly surprise: classify the task, route it to the cheapest tier that can do it, compress what gets sent.
+I also run the short-form video campaigns for these products, with the reels built in code.
+
+At WSP Canada I build internal web tools for the engineering teams as part of the Digital Solutions team.
 
 ---
 
@@ -41,7 +43,7 @@ Outside work, the **OpenClaw Agent System** — a 15-agent orchestration setup w
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Autodesk Platform Services](https://img.shields.io/badge/Autodesk%20Platform%20Services-000000?style=for-the-badge&logo=autodesk&logoColor=white)
 
-**Also:** Revit API · AutoCAD API · Dynamo · Prisma ORM · Azure SQL · GitHub Actions · AI agents (MCP) · multi-agent orchestration · prompt compression & model routing · systemd
+**Also:** MongoDB · Clerk · Remotion · Revit API · AutoCAD API · Dynamo · Prisma ORM · Azure SQL · GitHub Actions · AI agents (MCP) · multi-agent orchestration · prompt compression & model routing · systemd
 
 ---
 
@@ -52,9 +54,10 @@ Outside work, the **OpenClaw Agent System** — a 15-agent orchestration setup w
 | Project | Description |
 |---|---|
 | [OpenClaw Agent System](https://luisotero.vercel.app/work/14) | Multi-agent orchestration on OpenClaw — a 15-agent team with specialised roles, a task classifier that routes each request down a four-tier model ladder (Mistral → Haiku → Sonnet → Opus), and a three-layer compression stack. Built to a fixed budget: 85–95% lower token spend, ~7x cost efficiency, running as systemd user services |
-| [BuildCadence](https://buildcadence.co) | Goal-tracking app with an embedded MCP-powered AI agent that plans and updates your journeys through chat — Next.js 15, Clerk, Prisma + MongoDB, SSE |
-| [SplitWalls Cloud](https://splitwalls.cloud) | Browser-based wall-splitting SaaS for prefab panel contractors. Upload a Revit model, set split rules on a 2D canvas, run it in the cloud through APS Design Automation, get IFC back — no Revit license |
-| [Jorno App](https://www.jornoapp.xyz/) | AI-assisted intelligent forms for truck drivers and construction crews |
+| [Prowallo](https://prowallo.com) · [Instagram](https://www.instagram.com/prowallo.app/) | A wallet for your prompts: wallets hold groups, groups hold prompt chunks, and you compose and copy the merged prompt in one tap. Read-only share links, dictation, and a warning when a prompt looks like it holds a key or password — Next.js, Clerk, Prisma + MongoDB |
+| [BuildCadence](https://buildcadence.co) · [Instagram](https://www.instagram.com/buildcadence.app/) | Goal-tracking app with an embedded MCP-powered AI agent that plans and updates your journeys through chat — Next.js, Clerk, Prisma + MongoDB, SSE |
+| [SplitWalls Cloud](https://splitwalls.cloud) · [Instagram](https://www.instagram.com/splitwalls.cloud/) | Browser-based wall-splitting SaaS for prefab panel contractors. Upload a Revit model, set split rules on a 2D canvas, run it in the cloud through APS Design Automation, get IFC back — no Revit license |
+| Jorno App *(offline)* | AI-assisted intelligent forms for truck drivers and construction crews |
 
 **AEC tooling & automation**
 
@@ -77,6 +80,6 @@ Case studies, including slide-deck walkthroughs of the AutoCAD and Revit work, a
 [![Website](https://img.shields.io/badge/luisotero.vercel.app-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white)](https://luisotero.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisalonsooteroseminario/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://alonsooteroseminario.medium.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alonsooteroseminario@gmail.com)
+[![Contact](https://img.shields.io/badge/Contact-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](https://luisotero.vercel.app/contact)
 
 </div>
